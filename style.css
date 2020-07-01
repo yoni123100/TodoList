@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+}
+
+.todo-container {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    margin: 0.1rem;
+    background: transparent;
+    font-size: 1.0rem;
+}
+
+.checked-btn,
+.delete-btn,
+.edit-btn {
+    background: white;
+    padding: 0.5rem;
+    border: none;
+    font-size: 0.5rem;
+    margin: 0.5rem;
+}
+
+.checked {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.todo-container-list {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.todo-list  {
+    display: inline;
+}
